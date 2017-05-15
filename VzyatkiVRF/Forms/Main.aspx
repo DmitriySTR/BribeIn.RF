@@ -39,7 +39,7 @@
         <asp:Label ID="NameLabel" runat="server" Font-Size="32pt" Text="Взяткив.рф" ForeColor="Blue" Font-Bold="True" Font-Italic="True"></asp:Label></td>
                     <td>
         <asp:Label ID="SearchLabel" runat="server" Font-Size="20pt" Text="Поиск по взяткам:"></asp:Label>
-        <input type="text" name="SearchString"/><input type="submit" value="Найти" name="Search"/></td>
+        <input type="text" runat="server" ID="SearchBox" name="SearchString"/><input type="submit" value="Найти" name="Search"/></td>
                     <td class="auto-style5">
         <asp:Button ID="Add" runat="server" Font-Size="X-Large" Text="Добавить взятку" ForeColor="Black" BackColor="#0099CC" Width="237px"></asp:Button></td>
                 </tr>
@@ -62,7 +62,7 @@
         <center><asp:Button ID="BP" runat="server" Font-Size="Large" Text="Предыдущая" ForeColor="Black" BackColor="#00FFCC" Width="150px"></asp:Button></center></td>
                 <td><center><asp:Label ID="LN" runat="server" Font-Size="20pt" Text="1" ForeColor="Black"></asp:Label></center></td>                   
                 <td>
-        <center><asp:Button ID="BN" runat="server" Font-Size="Large" Text="Следующая" ForeColor="Black" BackColor="#00FFCC" Width="150px"></asp:Button></center></td>
+        <center><asp:Button ID="BN" runat="server" Font-Size="Large" Text="Следующая" ForeColor="Black" BackColor="#00FFCC" Width="150px" OnClick="BN_Click"></asp:Button></center></td>
             </tr>
             
         </table>
@@ -99,7 +99,7 @@
                 <tr>
                     <td class="auto-style6"><asp:Label ID="BL5" runat="server" Font-Size="20pt" Text="Взятка 5" ForeColor="Red"></asp:Label>
                         <br />
-                        <asp:TextBox ID="TB5" runat="server" readOnly="true" TextMode="MultiLine" Wrap="true" Font-Size="12pt" Text="Тут находится полная информация по взятке №5" ForeColor="Black" Width="600px" Height="60px"></asp:TextBox>
+                        <asp:TextBox ID="TBI5" runat="server" readOnly="true" TextMode="MultiLine" Wrap="true" Font-Size="12pt" Text="Тут находится полная информация по взятке №5" ForeColor="Black" Width="600px" Height="60px"></asp:TextBox>
                        
                     </td>
                 </tr>

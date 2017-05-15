@@ -40,6 +40,15 @@ namespace VzyatkiVRF.Forms {
         protected global::System.Web.UI.WebControls.Label SearchLabel;
         
         /// <summary>
+        /// SearchBox элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText SearchBox;
+        
+        /// <summary>
         /// Add элемент управления.
         /// </summary>
         /// <remarks>
@@ -157,13 +166,13 @@ namespace VzyatkiVRF.Forms {
         protected global::System.Web.UI.WebControls.Label BL5;
         
         /// <summary>
-        /// TB5 элемент управления.
+        /// TBI5 элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TB5;
+        protected global::System.Web.UI.WebControls.TextBox TBI5;
         
         /// <summary>
         /// BL6 элемент управления.
