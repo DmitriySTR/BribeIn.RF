@@ -70,19 +70,14 @@
                 <tr>
                     <td class="auto-style1"><img src="http://s013.radikal.ru/i322/1705/8c/38a191c61276.png"/>
         </td>
-                    <td>
-        <asp:Label ID="SearchLabel" runat="server" Font-Size="Large" Text="Поиск по взяткам:"></asp:Label>
-        <input type="text" runat="server" name="SearchString"/><input type="submit" value="Найти" name="Search"/></td>
                     
                 </tr>
                 <tr>
-                    <td class="auto-style1">&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style1"></td>
                     <td class="auto-style5">&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style1">&nbsp;</td>
-                    <td>&nbsp;</td>
                     <td class="auto-style5">&nbsp;</td>
                 </tr>
             </table>

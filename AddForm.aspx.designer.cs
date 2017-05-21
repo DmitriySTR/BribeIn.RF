@@ -31,15 +31,6 @@ namespace VzyatkiVRF.Forms {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// SearchLabel элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически создаваемое поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label SearchLabel;
-        
-        /// <summary>
         /// CBL элемент управления.
         /// </summary>
         /// <remarks>
