@@ -22,15 +22,6 @@ namespace VzyatkiVRF.Forms {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// NameLabel элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически создаваемое поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label NameLabel;
-        
-        /// <summary>
         /// SearchLabel элемент управления.
         /// </summary>
         /// <remarks>
@@ -40,13 +31,22 @@ namespace VzyatkiVRF.Forms {
         protected global::System.Web.UI.WebControls.Label SearchLabel;
         
         /// <summary>
-        /// SearchBox элемент управления.
+        /// SearchString элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText SearchBox;
+        protected global::System.Web.UI.WebControls.TextBox SearchString;
+        
+        /// <summary>
+        /// ButtonFind элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonFind;
         
         /// <summary>
         /// Add элемент управления.
@@ -85,6 +85,15 @@ namespace VzyatkiVRF.Forms {
         protected global::System.Web.UI.WebControls.Button BN;
         
         /// <summary>
+        /// TR1 элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlTableRow TR1;
+        
+        /// <summary>
         /// BL1 элемент управления.
         /// </summary>
         /// <remarks>
@@ -100,7 +109,16 @@ namespace VzyatkiVRF.Forms {
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TBI1;
+        protected global::System.Web.UI.WebControls.Label TBI1;
+        
+        /// <summary>
+        /// TR2 элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlTableRow TR2;
         
         /// <summary>
         /// BL2 элемент управления.
@@ -118,7 +136,16 @@ namespace VzyatkiVRF.Forms {
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TBI2;
+        protected global::System.Web.UI.WebControls.Label TBI2;
+        
+        /// <summary>
+        /// TR3 элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlTableRow TR3;
         
         /// <summary>
         /// BL3 элемент управления.
@@ -136,7 +163,16 @@ namespace VzyatkiVRF.Forms {
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TBI3;
+        protected global::System.Web.UI.WebControls.Label TBI3;
+        
+        /// <summary>
+        /// TR4 элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlTableRow TR4;
         
         /// <summary>
         /// BL4 элемент управления.
@@ -154,7 +190,16 @@ namespace VzyatkiVRF.Forms {
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TBI4;
+        protected global::System.Web.UI.WebControls.Label TBI4;
+        
+        /// <summary>
+        /// TR5 элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlTableRow TR5;
         
         /// <summary>
         /// BL5 элемент управления.
@@ -172,7 +217,16 @@ namespace VzyatkiVRF.Forms {
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TBI5;
+        protected global::System.Web.UI.WebControls.Label TBI5;
+        
+        /// <summary>
+        /// TR6 элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlTableRow TR6;
         
         /// <summary>
         /// BL6 элемент управления.
@@ -190,6 +244,6 @@ namespace VzyatkiVRF.Forms {
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TBI6;
+        protected global::System.Web.UI.WebControls.Label TBI6;
     }
 }
