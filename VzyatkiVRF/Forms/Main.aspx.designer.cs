@@ -100,7 +100,7 @@ namespace VzyatkiVRF.Forms {
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label BL1;
+        protected global::System.Web.UI.WebControls.HyperLink BL1;
         
         /// <summary>
         /// TBI1 элемент управления.
@@ -127,7 +127,7 @@ namespace VzyatkiVRF.Forms {
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label BL2;
+        protected global::System.Web.UI.WebControls.HyperLink BL2;
         
         /// <summary>
         /// TBI2 элемент управления.
@@ -154,7 +154,7 @@ namespace VzyatkiVRF.Forms {
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label BL3;
+        protected global::System.Web.UI.WebControls.HyperLink BL3;
         
         /// <summary>
         /// TBI3 элемент управления.
@@ -181,7 +181,7 @@ namespace VzyatkiVRF.Forms {
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label BL4;
+        protected global::System.Web.UI.WebControls.HyperLink BL4;
         
         /// <summary>
         /// TBI4 элемент управления.
@@ -208,7 +208,7 @@ namespace VzyatkiVRF.Forms {
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label BL5;
+        protected global::System.Web.UI.WebControls.HyperLink BL5;
         
         /// <summary>
         /// TBI5 элемент управления.
@@ -235,7 +235,7 @@ namespace VzyatkiVRF.Forms {
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label BL6;
+        protected global::System.Web.UI.WebControls.HyperLink BL6;
         
         /// <summary>
         /// TBI6 элемент управления.

@@ -4,6 +4,7 @@
     using System.Data.Entity;
     using System.Collections.Generic;
     using System.Linq;
+    using System.ComponentModel.DataAnnotations.Schema;
 
     public class VzyatkiContext : DbContext {
         // Контекст настроен для использования строки подключения "Model" из файла конфигурации  
@@ -33,7 +34,9 @@
         public string Text { get; set; }
         public DateTime Date { get; set; }
         public bool Checked { get; set; }
-        public Category Category { get; set; }
+        [ForeignKey("Category")]
+        public int CategoryId { get; set; }
+        public virtual Category Category { get; set; }
     }
 
     public class Category {

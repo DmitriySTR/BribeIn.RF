@@ -80,6 +80,7 @@
   <ItemGroup>
     <Content Include="Forms\AddForm.aspx" />
     <Content Include="Forms\Main.aspx" />
+    <Content Include="Forms\ShowComplaint.aspx" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -106,8 +107,32 @@
     <Compile Include="Forms\Main.aspx.designer.cs">
       <DependentUpon>Main.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Forms\ShowComplaint.aspx.cs">
+      <DependentUpon>ShowComplaint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\ShowComplaint.aspx.designer.cs">
+      <DependentUpon>ShowComplaint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201704231855083_InitialCreate.cs" />
+    <Compile Include="Migrations\201704231855083_InitialCreate.Designer.cs">
+      <DependentUpon>201704231855083_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705221004151_SampleMigrations.cs" />
+    <Compile Include="Migrations\201705221004151_SampleMigrations.Designer.cs">
+      <DependentUpon>201705221004151_SampleMigrations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Model.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201704231855083_InitialCreate.resx">
+      <DependentUpon>201704231855083_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705221004151_SampleMigrations.resx">
+      <DependentUpon>201705221004151_SampleMigrations.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

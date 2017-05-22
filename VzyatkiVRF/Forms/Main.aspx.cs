@@ -27,6 +27,7 @@ namespace VzyatkiVRF.Forms {
             else BN.Enabled = true;
             if (k>=0 && k < size) {
                 BL1.Text = complaints[k].Title;
+                BL1.NavigateUrl = "ShowComplaint.aspx?id="+ complaints[k].ComplaintID.ToString();
                 TBI1.Text = complaints[k].Text;
                 TR1.Visible = true;
             }
@@ -35,6 +36,7 @@ namespace VzyatkiVRF.Forms {
             }
             if (k+1 >= 0 && k+1 < size) {
                 BL2.Text = complaints[k+1].Title;
+                BL2.NavigateUrl = "ShowComplaint.aspx?id=" + complaints[k+1].ComplaintID.ToString();
                 TBI2.Text = complaints[k+1].Text;
                 TR2.Visible = true;
             }
@@ -43,6 +45,7 @@ namespace VzyatkiVRF.Forms {
             }
             if (k+2 >= 0 && k+2 < size) {
                 BL3.Text = complaints[k+2].Title;
+                BL3.NavigateUrl = "ShowComplaint.aspx?id=" + complaints[k+2].ComplaintID.ToString();
                 TBI3.Text = complaints[k+2].Text;
                 TR3.Visible = true;
             }
@@ -51,6 +54,7 @@ namespace VzyatkiVRF.Forms {
             }
             if (k+3 >= 0 && k+3 < size) {
                 BL4.Text = complaints[k+3].Title;
+                BL4.NavigateUrl = "ShowComplaint.aspx?id=" + complaints[k+3].ComplaintID.ToString();
                 TBI4.Text = complaints[k+3].Text;
                 TR4.Visible = true;
             }
@@ -59,6 +63,7 @@ namespace VzyatkiVRF.Forms {
             }
             if (k+4 >= 0 && k+4 < size) {
                 BL5.Text = complaints[k+4].Title;
+                BL5.NavigateUrl = "ShowComplaint.aspx?id=" + complaints[k+4].ComplaintID.ToString();
                 TBI5.Text = complaints[k+4].Text;
                 TR5.Visible = true;
             }
@@ -67,6 +72,7 @@ namespace VzyatkiVRF.Forms {
             }
             if (k+5 >= 0 && k+5 < size) {
                 BL6.Text = complaints[k+5].Title;
+                BL6.NavigateUrl = "ShowComplaint.aspx?id=" + complaints[k+5].ComplaintID.ToString();
                 TBI6.Text = complaints[k+5].Text;
                 TR6.Visible = true;
             }
@@ -99,6 +105,10 @@ namespace VzyatkiVRF.Forms {
             if (SearchString.Text != null && SearchString.Text != "")
                 Response.Redirect("Main.aspx?title=" + SearchString.Text);
             else Response.Redirect("Main.aspx");
+        }
+
+        protected void Add_Click ( object sender, EventArgs e ) {
+            Response.Redirect("AddForm.aspx");
         }
     }
 }
