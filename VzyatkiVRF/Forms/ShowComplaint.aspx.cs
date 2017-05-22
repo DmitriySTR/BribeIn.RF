@@ -21,5 +21,9 @@ namespace VzyatkiVRF.Forms {
         protected void BTP_Click ( object sender, EventArgs e ) {
             
         }
+
+        protected void Add_Click ( object sender, EventArgs e ) {
+            Response.Redirect("AddForm.aspx");
+        }
     }
 }

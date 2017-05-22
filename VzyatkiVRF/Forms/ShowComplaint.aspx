@@ -75,7 +75,7 @@
                     <td class="auto-style1"><img src="http://s013.radikal.ru/i322/1705/8c/38a191c61276.png">
         </td>
                     <td class="auto-style1">
-        <asp:Button ID="Add" runat="server" Font-Size="Large" Text="Добавить взятку" ForeColor="White" BackColor="#3CB371" Width="237px"></asp:Button></td>
+        <asp:Button ID="Add" runat="server" Font-Size="Large" Text="Добавить взятку" ForeColor="White" BackColor="#3CB371" Width="237px" OnClick="Add_Click"></asp:Button></td>
                     
                 </tr>
                 
