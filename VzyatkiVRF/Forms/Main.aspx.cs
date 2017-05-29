@@ -13,7 +13,7 @@ namespace VzyatkiVRF.Forms {
             if (c.Title.Contains(pattern)) return true;
             return false;
         }
-        private void setFileds(int k ) {
+        private void setFileds(int k) {
             VzyatkiContext context = new VzyatkiContext();
             Complaint[] complaints;
             string pattern = Request.QueryString["title"];
@@ -79,9 +79,18 @@ namespace VzyatkiVRF.Forms {
             else {
                 TR6.Visible = false;
             }
+
+            HttpCookie cookie = new HttpCookie("First cookie");
+            cookie["url"] = "main.aspx";
+            cookie["page"] = ((Int32.Parse(LN.Text)-1)*6).ToString();
+            Response.Cookies.Add(cookie);
         }
         protected void Page_Load ( object sender, EventArgs e ) {
-            
+            if (Request.QueryString["k"] != null) {
+                int k = Int32.Parse(Request.QueryString["k"]);
+                setFileds(k);
+                LN.Text = (k/6 + 1).ToString();
+            }
         }
 
         protected void Page_Init( object sender, EventArgs e ) {

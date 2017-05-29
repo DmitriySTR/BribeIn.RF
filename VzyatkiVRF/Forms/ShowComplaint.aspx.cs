@@ -19,7 +19,10 @@ namespace VzyatkiVRF.Forms {
         }
 
         protected void BTP_Click ( object sender, EventArgs e ) {
-            
+            HttpCookie cookieReq = Request.Cookies["First cookie"];
+            if (cookieReq != null) {
+                Response.Redirect(cookieReq["url"]+"?k=" + cookieReq["page"]);
+            }
         }
 
         protected void Add_Click ( object sender, EventArgs e ) {

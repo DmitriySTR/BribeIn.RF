@@ -81,7 +81,7 @@
             
         </table>
             
-            <table border='0' align="center" BGCOLOR="white" cellpadding="8"  cellspacing="12" class="auto-style3">
+            <table border='0' align="center" BGCOLOR="white" cellpadding="8"  cellspacing="20" class="auto-style3">
                 <tr runat="server" id="TR1">
                     <td class="auto-style6"><asp:HyperLink ID="BL1" runat="server" Font-Size="20pt" Text="Взятка 1" ForeColor="Black"></asp:HyperLink>
                         <br />

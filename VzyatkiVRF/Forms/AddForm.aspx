@@ -52,6 +52,9 @@
         .auto-style9 {
             height: 35px;
         }
+        .btn{
+            border-radius: 8px;
+        }
         </style>
 </head>
 <body>
@@ -136,7 +139,7 @@
             <asp:ValidationSummary runat="server" ID="Summary"  HeaderText="Пожалуйста, исправьте следующие ошибки:" ShowMessageBox="true" />
            <td>
 
-          <asp:Button ID="BTNAddBribe" runat="server" Font-Size="Large" Text="Добавить взятку" ForeColor="White" BackColor="#3CB371" Width="237px" OnClick="BNB_Click"></asp:Button></td>
+          <asp:Button ID="BTNAddBribe" runat="server" class="btn" Font-Size="Large" Text="Добавить взятку" ForeColor="White" BackColor="#3CB371" Width="237px" OnClick="BNB_Click" BorderStyle="Double" CssClass="btn"></asp:Button></td>
         </tr>
     </table>
         
